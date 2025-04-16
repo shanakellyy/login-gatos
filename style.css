@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+main {
+  background-color: white;
+  width: 25%;
+  padding: 3.5em 2em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: .5em;
+  color: rgb(92, 92, 92);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: .8em;
+  padding: 1em;
+}
+
+input, button {
+  padding: .8em;
+  border-radius: 10px;
+  border: 1px solid rgb(150, 150, 150);
+}
+
+button {
+  background-color: #95b88a;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+button:hover {
+  background-color: #728d6a;
+
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+  font-weight: bold;
+}
+
+.nota {
+  font-size: .8em;
+  font-size: .8em;
+}
+
