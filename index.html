@@ -6,25 +6,45 @@
     <title>Gatos | Login</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="container">
-      <main>
-        <h2>Bem-vindo de volta!</h2>
-        <p>Faça login para acessar sua conta.</p>
+    <main>
+      <div class="container">
+        <h1>Bem-vindo de volta! :)</h2>
+        <p class="subtitulo">Faça login para acessar sua conta.</p>
+
         <form action="" method="get">
-          <input type="email" name="" id="" />
-          <input type="password" name="" id="" />
-          <p class="nota"><a href="">Esqueci minha senha</a></p>
-          <button>Sign in</button>
+          <input type="text" name="" id="" placeholder="Usuário" />
+          <input type="password" name="" id="" placeholder="Senha" />
+
+          <p class="texto"><a href="#">Esqueci minha senha</a></p>
+
+          <button>Entrar</button>
         </form>
-        <p class="nota">ou faça login com</p>
-        <ul>
-          <li>Google</li>
-          <li>Apple ID</li>
-          <li>Facebook</li>
-        </ul>
-        <p class="nota">Não tem uma conta? <a href="">Cadastre-se agora!</a></p>
-      </main>
-    </div>
+
+        <p class="texto">— ou entre com —</p>
+
+        <div class="links">
+          <a href="#">
+            <img src="imagens/google.png" alt="" />
+            <p>Google</p>
+          </a>
+
+          <a href="#">
+            <img src="imagens/apple.png" alt="" />
+            <p>Apple ID</p>
+          </a>
+
+          <a href="#">
+            <img src="imagens/github.png" alt="" />
+            <p>GitHub</p>
+          </a>
+        </div>
+        
+        <p class="texto">
+          Não tem uma conta? <a href="cadastro.html">Cadastre-se agora!</a>
+        </p>
+      </div>
+    </main>
   </body>
 </html>
